@@ -1,0 +1,33 @@
+@font-face {
+  font-family: UberMoveText;
+  font-display: fallback;
+  font-weight: 400;
+  src: url("assets/fonts/UberMoveText-Medium.woff2") format("woff2");
+}
+
+/* 
+@font-face {
+  font-family: UberMoveText;
+  font-display: fallback;
+  font-weight: 500;
+  src: url("assets/fonts/UberMoveText-Medium.woff2") format("woff2");
+} */
+
+@font-face {
+  font-family: UberMove;
+  font-display: fallback;
+  font-weight: 700;
+  src: url("assets/fonts/UberMove-Bold.woff2") format("woff2");
+}
+
+* {
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
